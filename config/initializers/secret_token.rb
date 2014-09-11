@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-LoggyInny::Application.config.secret_key_base = '64a9efc23fbd181ec00886984fd96794d9ac8da6e79e64adaca74ad0394463246af70ec82dc73b71f89c975183cd8b58ca63151d79fa812623265b7258da2859'
+LoggyInny::Application.config.secret_key_base = '937cc535ea44af9d43e95b736fe1f65bc50a047fb29fb395ab3ff5611c83d8ecab6ca0c513407f00079bdbbced1269defda3c62c7d61ff5709507d6e189ad422'

@@ -5,6 +5,26 @@ LoggyInny::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
+
+  ########################
+  # SESSIONS RESOURCE
+  ########################
+  root 'sessions#index'
+  get 'signin/' => 'sessions#new', as: :sessions
+  post 'signin/' => 'sessions#create'
+
+  ########################
+  # USERS RESOURCE
+  ########################
+  get 'signup/' => 'users#new', as: :signup
+  get 'users/new' => 'users#new'
+  post 'users/' => 'users#create'
+
+
+
+ 
+
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
